@@ -1,0 +1,24 @@
+{
+  "name": "ffmpeg-slow-motion",
+  "version": "1.0.0",
+  "description": "A little node script to encode video in slow motion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Adão Dias",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg-static": "^4.4.0",
+    "fs-extra": "^10.0.0",
+    "jimp": "^0.16.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ffmpeg",
+    "slow-motion",
+    "slow",
+    "motion"
+  ]
+}
